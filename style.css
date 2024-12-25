@@ -1,0 +1,41 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+img, picture, svg, video {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+    font-family: calibri;
+    height: 300vh;
+    background-color: red;
+}
+
+#text-slide {
+    position: relative;
+    background-color: green;
+    height: 20vh;
+    width: 20vw;
+    margin-top: 150vh;
+    transition: all 1s;
+    /* left: -10vw; */
+}
+
+.seen {
+    left: 50vw;
+    transition: all 1s;
+}
+
+.unseen {
+    left: -100vw;
+    transition: all 1s;
+}
